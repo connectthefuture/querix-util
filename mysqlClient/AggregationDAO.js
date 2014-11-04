@@ -9,7 +9,7 @@ var log = require('log4js').getLogger('AggregationDAO');
 */
 var AggregationDAO = function(prodId, config) {
   var that = this;
-  this.mysql = require('querix_utils/mysql')(prodId);
+  this.mysql = require('querix-util/mysql')(prodId);
   this.prodId = prodId;
   this.config = config;
 
