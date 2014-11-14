@@ -11,10 +11,10 @@ var connectToQueues = function() {
     var config = productions[productionId].rabbit;
     if (config) {
       connections[productionId] = amqp.createConnection({
-          host: config.host,
-          port: config.port,
-          user: config.username,
-          password: config.password
+        host: config.host,
+        port: config.port,
+        user: config.username,
+        password: config.password
       });
     }
   }
