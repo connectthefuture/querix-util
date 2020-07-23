@@ -19,7 +19,7 @@
     "loggly": "^1.0.5",
     "mysql": "^2.5.1",
     "nconf": "^0.6.9",
-    "superagent": "~0.19.0",
+    "superagent": "~5.3.1",
     "underscore": "^1.7.0"
   }
 }
